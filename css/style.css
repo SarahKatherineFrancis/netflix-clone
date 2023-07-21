@@ -153,6 +153,7 @@ img {
 
 .tabs .container > div:hover {
   color: #fff;
+  cursor: pointer;
 }
 
 .tab-border {
