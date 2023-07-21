@@ -230,6 +230,26 @@ img {
 
 /* Footer */
 
+.footer {
+  max-width: 75%;
+  margin: 1rem auto;
+  overflow: auto;
+}
+
+.footer p {
+  margin-bottom: 1.5rem;
+}
+
+.footer, .footer a {
+  color: #999;
+  font-size: 0.9rem;
+}
+
+.footer-cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
 /* Container */
 
 .container {
