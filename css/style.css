@@ -417,7 +417,7 @@ footer li {
   }
 }
 
-@media(max-width: 425px) {
+@media(max-width: 635px) {
 
   .showcase-content {
     padding: 0 2rem;
@@ -425,6 +425,15 @@ footer li {
 
   .showcase-top {
     height: 5px;
+  }
+
+  .showcase-top .btn {
+    transform: translate(0);
+    top: 100%;
+  }
+
+  .showcase-content p {
+    font-size: 1rem;
   }
 
   .showcase::after {
@@ -462,7 +471,29 @@ footer li {
 
   .table thead th,
   .table tbody tr td {
-    font-size: 0.5rem;
-    padding: 0.6rem 0.8rem;
+    font-size: 0.7rem;
+    padding: 0.3rem 0.4rem;
+  }
+
+  .btn-xl {
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
+  }
+
+  .btn-lg {
+    font-size: 0.8rem;
+    padding: 0.6rem 1.3rem;
+  }
+
+  .text-xl {
+    font-size: 1.2rem;
+  }
+
+  .text-lg {
+    font-size: 1rem;
+  }
+
+  .text-md {
+    font-size: 0.8rem;
   }
 }
