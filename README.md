@@ -54,7 +54,7 @@
 <h2>Authors</h2>
 <p>Sarah Francis</p>
 
-<h2Acknowledgments</h2>
+<h2>Acknowledgments</h2>
 <p>
   This project was inspired by Netflix and is meant for educational purposes
   only.
